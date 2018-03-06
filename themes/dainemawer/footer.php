@@ -1,12 +1,26 @@
 <?php
 /**
- * The template for displaying the footer.
+ * The template for displaying the footer
  *
- * @package DaineMawer
- * @since 0.1.0
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage DaineMawer
+ * @since 1.0
+ * @version 1.0
  */
 ?>
 
+	</main>
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+	</footer>
+
 	<?php wp_footer(); ?>
+
 	</body>
-</html>
+
+	</html>

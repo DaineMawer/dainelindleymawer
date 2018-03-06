@@ -96,6 +96,12 @@ function scripts() {
 function styles() {
 
 	wp_enqueue_style(
+		'montserrat',
+		"https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700",
+		false
+	);
+
+	wp_enqueue_style(
 		'styles',
 		DM_THEME_SCAFFOLD_TEMPLATE_URL . "/dist/css/style.min.css",
 		false

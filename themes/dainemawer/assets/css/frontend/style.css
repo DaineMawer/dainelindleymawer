@@ -7,7 +7,7 @@
  */
 
 /* Global - global pieces like media queries, mixins and placholders */
-@import url("global/index");
+@import url("global/config");
 
 /* Base - base styles such as fonts, typography, and wordpress overrides */
 /* as well as some global micro-elements like icons */

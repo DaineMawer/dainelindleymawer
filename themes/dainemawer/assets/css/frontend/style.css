@@ -12,6 +12,9 @@
 /* Base - base styles such as fonts, typography, and wordpress overrides */
 /* as well as some global micro-elements like icons */
 @import url("base/index");
+@import url("base/reset");
+@import url("base/normalize");
+@import url("base/sanitize");
 
 /* Layout - styles specific to layout */
 @import url("layout/index");
@@ -20,4 +23,5 @@
 @import url("templates/index");
 
 /* Components */
-@import url("components/index");
+@import url("components/wp/wp");
+@import url("components/header/header");
